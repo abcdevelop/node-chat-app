@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
-    "test": "mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec 'npm testnpm i -g npm'"
+    "test": "mocha server/**/*.test.js"
   },
   "engines": {
     "node": "8.6.0"
